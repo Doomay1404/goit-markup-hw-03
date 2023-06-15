@@ -1,99 +1,43 @@
 /*body*/
 .body {
   /* Main Page */
-
-  position: relative;
-  width: 1440px;
-  height: 2592px;
-
   background: #ffffff;
 }
 /*HEADER*/
 .header-top {
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
 }
 .logo {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-.web {
-  width: 44px;
-  height: 21px;
-
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.web {
   color: #4d5ae5;
 }
 .studio {
-  width: 71px;
-  height: 21px;
-
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
   color: #2e2f42;
 }
 .nav {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 24px;
 }
 .header-home {
-  /* Studio */
-
-  width: 48px;
-  height: 24px;
-
-  /* Body Medium */
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
 
   color: #2e2f42;
 
   /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .header-portfolio {
   /* Portfolio */
 
-  width: 66px;
-  height: 24px;
-
-  /* Body Medium */
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -106,19 +50,10 @@
   /* NAVY BLUE */
 
   color: #2e2f42;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .header-contacts {
   /* Contacts */
 
-  width: 67px;
-  height: 24px;
-
   /* Body Medium */
 
   font-family: "Roboto";
@@ -133,19 +68,8 @@
   /* NAVY BLUE */
 
   color: #2e2f42;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 2;
-  flex-grow: 0;
 }
 .header-info {
-  position: absolute;
-  width: 153px;
-  height: 24px;
-  left: 939px;
-  top: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -155,11 +79,6 @@
   color: #434455;
 }
 .header-tel {
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  left: 1133px;
-  top: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -172,21 +91,11 @@
 .hero-dark {
   /* Dark-bg */
 
-  position: absolute;
-  width: 1440px;
-  height: 600px;
+  height: 150px;
   left: 0px;
-  top: 72px;
-
   background: #2e2f42;
 }
 .hero-h {
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
-
   /* Header 1 */
 
   font-family: "Roboto";
@@ -195,37 +104,26 @@
   font-size: 56px;
   line-height: 60px;
 
-  text-align: center;
   letter-spacing: 0.02em;
 
   color: #ffffff;
 }
 .hero-but {
-  /* Button */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .section1 {
-  /* Section 1 */
-
-  position: absolute;
-  width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
 }
 .section1h3 {
   width: 264px;
@@ -245,18 +143,9 @@
   /* NAVY BLUE */
 
   color: #2e2f42;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .section1p {
   /* Our goal is to identify the business problem to walk away with the perfect and creative solution. */
-
-  width: 264px;
-  height: 72px;
 
   /* Body */
 
@@ -274,27 +163,10 @@
   color: #434455;
 
   /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .section2 {
-  /* Section 2 */
-
-  position: absolute;
-  width: 1128px;
-  height: 412px;
-  left: 156px;
-  top: 1016px;
 }
 .section2h2 {
-  position: absolute;
-  width: 323px;
-  height: 40px;
-  left: 559px;
-  top: 1016px;
-
   /* Header 2 */
 
   font-family: "Roboto";
@@ -304,7 +176,6 @@
   line-height: 40px;
   /* identical to box height, or 111% */
 
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
@@ -314,75 +185,20 @@
 }
 .section2img1 {
   /* img 1 */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 156px;
-  top: 1128px;
 }
 .section2img2 {
   /* img 2 */
 
   /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 540px;
-  top: 1128px;
 }
 .section2img3 {
   /* img 3 */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 924px;
-  top: 1128px;
 }
 .section3 {
-  /* Light-bg */
-
-  position: absolute;
-  width: 1440px;
-  height: 732px;
-  left: 0px;
-  top: 1548px;
-
-  /* CLOUD */
-
   background: #f4f4fd;
 }
 .section3h2 {
   /* Our Team */
-
-  position: absolute;
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1668px;
-
-  /* Header 2 */
 
   font-family: "Roboto";
   font-style: normal;
@@ -391,7 +207,6 @@
   line-height: 40px;
   /* identical to box height, or 111% */
 
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
@@ -400,11 +215,6 @@
   color: #2e2f42;
 }
 .section3h3 {
-  width: 134px;
-  height: 24px;
-
-  /* Header 3 */
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -412,24 +222,14 @@
   line-height: 24px;
   /* identical to box height, or 120% */
 
-  text-align: center;
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
 
   color: #2e2f42;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .section3p {
   /* Product Designer */
-
-  width: 128px;
-  height: 24px;
 
   /* Body */
 
@@ -440,7 +240,6 @@
   line-height: 24px;
   /* identical to box height, or 150% */
 
-  text-align: center;
   letter-spacing: 0.02em;
 
   /* SLATE */
@@ -448,26 +247,9 @@
   color: #434455;
 
   /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .section3img1 {
   /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 156px;
-  top: 1780px;
 
   /* WHITE
 
@@ -481,19 +263,6 @@ Header background, team card background
 .section3img2 {
   /* Auto layout */
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 444px;
-  top: 1780px;
-
   /* WHITE
 
 Header background, team card background
@@ -505,19 +274,6 @@ Header background, team card background
 }
 .section3img3 {
   /* Auto layout */
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 732px;
-  top: 1780px;
 
   /* WHITE
 
@@ -531,19 +287,6 @@ Header background, team card background
 .section3img4 {
   /* Auto layout */
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  gap: 32px;
-
-  position: absolute;
-  width: 264px;
-  height: 380px;
-  left: 1020px;
-  top: 1780px;
-
   /* WHITE
 
 Header background, team card background
@@ -556,37 +299,15 @@ Header background, team card background
 .footer {
   /* Dark-bg */
 
-  position: absolute;
-  width: 1440px;
-  height: 312px;
-  left: 0px;
-  top: 2280px;
-
   /* NAVY BLUE */
 
   background: #2e2f42;
 }
 .logofooter {
   /* Logo */
-
-  /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 2380px;
 }
 .webfooter {
   /* Web */
-
-  width: 44px;
-  height: 21px;
 
   font-family: "Raleway";
   font-style: normal;
@@ -595,7 +316,6 @@ Header background, team card background
   line-height: 21px;
   /* identical to box height, or 117% */
 
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -605,16 +325,9 @@ Header background, team card background
   color: #4d5ae5;
 
   /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 .studiofooter {
   /* Studio */
-
-  width: 71px;
-  height: 21px;
 
   font-family: "Raleway";
   font-style: normal;
@@ -623,7 +336,6 @@ Header background, team card background
   line-height: 21px;
   /* identical to box height, or 117% */
 
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -633,19 +345,9 @@ Header background, team card background
   color: #f4f4fd;
 
   /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .footerp {
   /* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
-
-  position: absolute;
-  width: 264px;
-  height: 72px;
-  left: 156px;
-  top: 2420px;
 
   /* Body */
 
@@ -661,4 +363,23 @@ Header background, team card background
   /* CLOUD */
 
   color: #f4f4fd;
+}
+/*PORTFOLIOOOOOOO*/
+.menu {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  /* CLOUD */
+
+  background: #f4f4fd;
+  /* CORNFLOWER */
+
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
