@@ -85,6 +85,9 @@ body {
 .header-logo-click {
   color: var(--text-secondary-color);
 }
+.header-nav-item {
+  color: var(--bg-btn-hover);
+}
 
 .header-nav-link:hover,
 .header-nav-link:focus {
