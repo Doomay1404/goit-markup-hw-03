@@ -4,43 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Studio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="bod">
-    <!--Header section-->
-    <header class="header-top">
-       <a href="./index.html" class="logo">          <span class="web">WEB</span>
-          <span class="studio">STUDIO</span></a</a>
-      <nav class="nav">
-        <ul>
-          <li class="header-home"><a href="./index.html">Studio</a></li>
-          <li class="header-portfolio"><a href="">Portfolio</a></li>
-          <li class="header-contacts"><a href="">Contacts</a></li>
+  <body class="page">
+    <!-- Header section -->
+    <header>
+      <nav>
+        <a class="logo link" href="./index.html"
+          >Web<span class="logo-header">Studio</span></a
+        >
+        <ul class="list">
+          <li>
+            <a
+              class="header-logo-click link"
+              href="./index.html"
+              target="_blank"
+              >Studio</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a
+              class="header-nav-link link"
+              href="./portfolio.html"
+              target="_blank"
+              >Portfolio</a
+            >
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link link" href="" target="_blank">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul id="Contacts">
-          <li class="header-info">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="header-address">
+        <ul class="header-address-list list">
+          <li>
+            <a class="header-address-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="header-tel">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li>
+            <a class="header-address-link link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
-    <!--Main secrion-->
+
+    <!-- Main block-->
     <main>
-      <!-- hero section -->
-      <section class="hero-dark">
-        <h1 class="hero-h">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-but">Order Service</button>
+      <!-- Hero section -->
+      <section class="hero">
+        <h1 class="heroh1">Effective Solutions for Your Business</h1>
+        <button class="hero-but btn" type="button">Order Service</button>
       </section>
-      <!--section1-->
-      <section class="section1">
-        <h2 hidden>Page</h2>
-        <ul>
+      <!-- Features section -->
+      <section>
+        <h2 class="section1h2" hidden>Features</h2>
+        <ul class="list">
           <li>
             <h3 class="section1h3">Strategy</h3>
             <p class="section1p">
@@ -71,93 +99,93 @@
           </li>
         </ul>
       </section>
-      <!--section2-->
-      <section class="section2">
+
+      <!-- What are we doing section -->
+      <section>
         <h2 class="section2h2">What are we doing</h2>
-        <ul>
-          <li class="section2img1">
+        <ul class="list">
+          <li>
             <img
               src="./images/Rectangle71(2).jpg"
-              alt="Screen"
+              alt="computer"
               width="360"
               height="300"
             />
           </li>
-          <li class="section2img2">
+          <li>
             <img
               src="./images/Rectangle71(1).jpg"
-              alt="Screen phone"
+              alt="phones"
               width="360"
               height="300"
             />
           </li>
-          <li class="section2img3">
+          <li>
             <img
               src="./images/Rectangle71.jpg"
-              alt="Screen phone"
+              alt="phone and computer"
               width="360"
               height="300"
             />
           </li>
         </ul>
       </section>
-      <!--section3-->
-      <section class="section3">
-        <h2 class="section3h2">Our Team</h2>
-        <ul>
-          <li class="section3img1">
+
+      <!-- Our Team section -->
+      <section>
+        <h2 class="section2h2">Our Team</h2>
+        <ul class="list">
+          <li>
             <img
               src="./images/img(3).jpg"
               alt="Mark Guerrero"
               width="264"
               height="260"
             />
-
-            <h3 class="section3h3">Mark Guerrero</h3>
-            <p class="section3p">Product Designer</p>
+            <h3 class="section1h3">Mark Guerrero</h3>
+            <p class="section1p">Product Designer</p>
           </li>
-          <li class="section3img2">
+          <li>
             <img
               src="./images/img(2).jpg"
               alt="Tom Ford"
               width="264"
               height="260"
             />
-
-            <h3 class="section3h3">Tom Ford</h3>
-            <p class="section3p">Frontend Developer</p>
+            <h3 class="section1h3">Tom Ford</h3>
+            <p class="section1p">Frontend Developer</p>
           </li>
-          <li class="section3img3">
+          <li>
             <img
+              class="team-image"
               src="./images/img(1).jpg"
               alt="Camila Garcia"
               width="264"
               height="260"
             />
-
-            <h3 class="section3h3">Camila Garcia</h3>
-
-            <p class="section3p">Marketing</p>
+            <h3 class="section1h3">Camila Garcia</h3>
+            <p class="section1p">Marketing</p>
           </li>
-          <li class="section3img4">
+          <li>
             <img
               src="./images/img.jpg"
               alt="Daniel Wilson"
               width="264"
               height="260"
             />
-
-            <h3 class="section3h3">Daniel Wilson</h3>
-            <p class="section3p">UI Designer</p>
+            <h3 class="section1h3">Daniel Wilson</h3>
+            <p class="section1p">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <!--Footer secrion-->
+
+    <!-- Footer section-->
     <footer class="footer">
-      <a href="./index.html" class="logofooter"><span class="webfooter">WEB</span>
-          <span class="studiofooter">STUDIO</span></a</a>
-      <p class="footerp">
+      <a class="logo link" href="./index.html"
+        >Web<span class="logo-footer">Studio</span></a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
