@@ -116,7 +116,7 @@ body {
   background-color: var(--bg-dark-color);
 }
 
-.hero-h1 {
+.hero-h {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -141,11 +141,11 @@ body {
 
 /* Features section */
 
-.section1h2 {
+.section-h {
   letter-spacing: 0.02em;
 }
 
-.section1h3 {
+.section-logo {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -153,7 +153,7 @@ body {
   color: var(--text-secondary-color);
 }
 
-.section1p {
+.section-p {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
