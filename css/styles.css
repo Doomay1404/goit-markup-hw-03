@@ -82,6 +82,13 @@ body {
 
 /* Header */
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-div {
+  display: flex;
+}
+
 .header-logo-click {
   color: var(--text-secondary-color);
 }
@@ -233,4 +240,8 @@ body {
 .portfolio-text {
   font-weight: 400;
   color: var(--text-main-color);
+}
+/*IMG*/
+.img {
+  display: block;
 }
