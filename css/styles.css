@@ -102,7 +102,6 @@ body {
 }
 .header-list {
   display: flex;
-  gap: 40px;
 }
 
 .div {
@@ -110,13 +109,14 @@ body {
 }
 .container {
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .header-nav-link {
   padding: 24px 0;
@@ -136,6 +136,7 @@ body {
 
 .header-address {
   font-style: normal;
+  display: flex;
 }
 
 .header-address-link {
