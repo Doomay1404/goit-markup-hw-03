@@ -12,16 +12,16 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/modern-normalize.css" />
     <link
-      rel="stylesheet"
-      href="/modern-normalize.css"
+      rel="preconnect"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/>
   </head>
   <body class="page">
     <!-- Header section -->
     <header class="header">
-      <div class="div container" style="justify-content: space-between;">
+      <div class="div container" style="justify-content: space-between">
         <nav class="header-nav">
           <a class="logo link" href="./index.html"
             >Web<span class="logo-header">Studio</span></a
@@ -81,7 +81,7 @@
       <!-- Features section -->
       <section class="features-section">
         <div class="container">
-          <h2 class="section-h" hidden>Features</h2>
+          <h2 class="section-h visually-hidden" hidden>Features</h2>
           <ul class="features-list list">
             <li class="features-li">
               <h3 class="section-logo">Strategy</h3>
@@ -137,8 +137,8 @@
                 height="300"
                 class="img"
               />
-            </li class="what-we-li">
-            <li>
+            </li>
+            <li class="what-we-li">
               <img
                 src="./images/Rectangle71.jpg"
                 alt="phone and computer"
@@ -154,68 +154,67 @@
       <!-- Our Team section -->
       <section class="team">
         <div class="container">
-        <h2 class="team-h">Our Team</h2>
-        <ul class="team-list list">
-          <li class="team-li">
-            <img
-              src="./images/mark.jpg"
-              alt="Mark Guerrero"
-              width="264"
-              height="260"
-              class="img"
-            />
-            <div class="team-div-image">
-            <h3 class="team-logo-h">Mark Guerrero</h3>
-            <p class="team-p">Product Designer</p>
-            </div>
-          </li>
-          <li class="team-li" >
-            <img
-              src="./images/tom.jpg"
-              alt="Tom Ford"
-              width="264"
-              height="260"
-              class="img"
-            />
-            <div class="team-div-image">
-            <h3 class="team-logo-h">Tom Ford</h3>
-            <p class="team-p">Frontend Developer</p>
-            </div>
-          </li>
-          <li class="team-li">
-            <img
-              
-              src="./images/camila.jpg"
-              alt="Camila Garcia"
-              width="264"
-              height="260"
-              class="img"
-            />
-            <div class="team-div-image">
-            <h3 class="team-logo-h">Camila Garcia</h3>
-            <p class="team-p">Marketing</p>
-            </div>
-          </li>
-          <li class="team-li">
-            <img
-              src="./images/daniel.jpg"
-              alt="Daniel Wilson"
-              width="264"
-              height="260"
-              class="img"
-            />
-            <div class="team-div-image">
-            <h3 class="team-logo-h">Daniel Wilson</h3>
-            <p class="team-p">UI Designer</p>
-            </div>
-          </li>
-        </ul>
+          <h2 class="team-h">Our Team</h2>
+          <ul class="team-list list">
+            <li class="team-li">
+              <img
+                src="./images/mark.jpg"
+                alt="Mark Guerrero"
+                width="264"
+                height="260"
+                class="img"
+              />
+              <div class="team-div-image">
+                <h3 class="team-logo-h">Mark Guerrero</h3>
+                <p class="team-p">Product Designer</p>
+              </div>
+            </li>
+            <li class="team-li">
+              <img
+                src="./images/tom.jpg"
+                alt="Tom Ford"
+                width="264"
+                height="260"
+                class="img"
+              />
+              <div class="team-div-image">
+                <h3 class="team-logo-h">Tom Ford</h3>
+                <p class="team-p">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-li">
+              <img
+                src="./images/camila.jpg"
+                alt="Camila Garcia"
+                width="264"
+                height="260"
+                class="img"
+              />
+              <div class="team-div-image">
+                <h3 class="team-logo-h">Camila Garcia</h3>
+                <p class="team-p">Marketing</p>
+              </div>
+            </li>
+            <li class="team-li">
+              <img
+                src="./images/daniel.jpg"
+                alt="Daniel Wilson"
+                width="264"
+                height="260"
+                class="img"
+              />
+              <div class="team-div-image">
+                <h3 class="team-logo-h">Daniel Wilson</h3>
+                <p class="team-p">UI Designer</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
 
     <!-- Footer section-->
-  <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <a class="link logo footer-link" href="./index.html"
           >Web<span class="logo-footer">Studio</span></a
